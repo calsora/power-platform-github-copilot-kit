@@ -1,5 +1,5 @@
 ---
-applyTo: '**'
+applyTo: '**/*.ts, **/*.js'
 description: 'Best practices for developing Dynamics 365 JavaScript web resources, including structure, maintainability, performance, security, and supportability.'
 ---
 
