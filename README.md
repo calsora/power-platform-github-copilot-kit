@@ -1,4 +1,4 @@
-# Power Platform Reusable Repo
+# Power Platform Copilot Repo
 
 AI-driven expert guidance for Power Platform development. Access specialist agents for production-ready solutions to common challenges.
 
