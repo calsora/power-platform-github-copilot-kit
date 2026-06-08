@@ -143,6 +143,10 @@ Help me build a modern SPA in Power Pages with [requirements]
 - Power Platform ALM and deployment
 - Security and compliance patterns
 
+### Awesome Copilot 
+
+Some of the components within the solution were taken from the [Awesome Copilot Repo](https://github.com/github/awesome-copilot). It's a great resource that's worth saving!
+
 ---
 
 ## License
