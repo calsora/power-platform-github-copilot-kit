@@ -6,17 +6,6 @@ This repo is designed to support reusable Power Platform delivery with clear str
 
 Create a repo that is easy for teams to reuse across Power Apps, Power Automate, Dataverse, connectors, and Azure-integrated solutions.
 
-## Recommended repository structure
-
-- `.github/` - CI/CD workflows, issue and PR templates, security and branch policies
-- `docs/` - architecture patterns, governance, environment definitions, naming conventions
-- `templates/` - reusable artifact scaffolds for apps, flows, connectors, Dataverse schema, and solution packaging
-- `solutions/` - complete sample solutions and end-to-end reference implementations
-- `scripts/` - deployment helpers, Power Platform CLI scripts, repository automation
-- `tests/` - validation scripts, metadata checks, and reuse quality tests
-- `README.md` - repo overview, quick start, and structure guidance
-- `AGENTS.md` - this file, documenting how agents should be used and maintained
-
 ## Agent usage guidance
 
 This file should document how contributors and AI agents collaborate in this repo.
