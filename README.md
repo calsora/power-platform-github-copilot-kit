@@ -1,17 +1,8 @@
 # Power Platform Copilot Repo
 
-AI-driven expert guidance for Power Platform development. Access specialist agents for production-ready solutions to common challenges.
+A collection of agents and instructions that can help you with day-to-day tasks working with the Power Platform.
 
-## What You Get
-
-| Challenge | Solution |
-|---|---|
-| Time searching documentation | Expert answers in seconds |
-| Uncertainty about best practices | Validated guidance with confidence |
-| Manual solution duplication | Reusable, proven patterns |
-| Solo debugging | Expert guidance when needed |
-
-For developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
+The starter kit is for developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
 
 ---
 
