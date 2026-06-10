@@ -1,4 +1,4 @@
-# Power Platform github Copilot Repo
+# Power Platform GitHub Copilot Repo
 
 I found it wasn't that clear where to start with agents, skills and instructions and to structure a generic repo. Therefore, I've built a lightweight repo to help people getting started using Github Copilot with the Power Platform.
 
