@@ -26,6 +26,11 @@ This file should document how contributors and AI agents collaborate in this rep
   - recommend Power Platform CLI, GitHub Actions, or Azure DevOps templates
   - support environment promotion and solution deployment
 
+- `Azure DevOps First-Line Support`
+  - diagnose incidents using the current repository, Azure DevOps work items/repos/pipelines, and Wiki read-only evidence
+  - never modify source files or Azure DevOps work items, repos, pipelines, or wiki pages
+  - propose sanitized lessons for human review; never self-modify
+
 - `Azure Principal Architect`
   - advise on Azure integration, identity, security, and platform boundary patterns
   - map Power Platform connectivity to Azure services and enterprise architecture
@@ -70,3 +75,5 @@ Separating content into these layers helps maintain a reusable repo:
 - `solutions/` = real working examples
 - `scripts/` = automation and deployment
 - `tests/` = quality validation
+
+The first-line support agent is defined in `.github/agents/azure-devops-first-line-support.agent.md`. See `docs/azure-devops-first-line-support.md` for portable VS Code/MCP setup, Wiki read access, access boundaries, and the synthetic demo repository under `templates/azure-devops-first-line-support/FirstLineSupportDemo`.

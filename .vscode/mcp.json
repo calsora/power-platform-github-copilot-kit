@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "ado-readonly": {
+      "type": "http",
+      "url": "https://mcp.dev.azure.com/",
+      "headers": {
+        "X-MCP-Tools": "core_list_projects, repo_repository, repo_file, search_code, wit_work_item, search_workitem, pipelines_build, pipelines_build_log, pipelines_run, wiki, search_wiki",
+        "X-MCP-Readonly": "true"
+      }
+    }
+  }
+}
