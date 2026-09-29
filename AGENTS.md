@@ -28,8 +28,8 @@ This file should document how contributors and AI agents collaborate in this rep
 
 - `Azure DevOps First-Line Support`
   - diagnose incidents using the current repository, Azure DevOps work items/repos/pipelines, and Wiki read-only evidence
-  - never modify source files or Azure DevOps work items, repos, pipelines, or wiki pages
-  - propose sanitized lessons for human review; never self-modify
+  - has no file-editing tool and never modifies source files or Azure DevOps work items, repos, pipelines, or wiki pages
+  - after user-confirmed resolutions, draft sanitized provisional lessons in chat for a human to review and add manually
 
 - `Azure Principal Architect`
   - advise on Azure integration, identity, security, and platform boundary patterns

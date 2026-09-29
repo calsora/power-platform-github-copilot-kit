@@ -83,7 +83,8 @@ copilot-lab/
 │   └── mcp.json                         # Read-only Azure DevOps MCP, including Wiki
 ├── docs/
 │   ├── azure-devops-first-line-support.md
-│   └── azure-devops-support-lessons.md  # Human-reviewed reusable lessons
+│   ├── azure-devops-support-lessons.provisional.md # Manually added, unverified lessons
+│   └── azure-devops-support-lessons.md  # Optional human-reviewed lessons
 ├── templates/
 │   └── azure-devops-first-line-support/ # Synthetic Azure DevOps demo repo
 ├── AGENTS.md                            # Agent roles and responsibilities
@@ -99,7 +100,7 @@ copilot-lab/
 
 This repository includes a reusable [Azure DevOps First-Line Support agent](.github/agents/azure-devops-first-line-support.agent.md), a read-only remote MCP setup with wiki search/read tools in [.vscode/mcp.json](.vscode/mcp.json), and a synthetic demo repository under [templates/azure-devops-first-line-support/FirstLineSupportDemo](templates/azure-devops-first-line-support/FirstLineSupportDemo).
 
-The agent uses the current repository, Azure DevOps repositories, work items, pipeline/build diagnostics, and wiki pages as evidence. It is read-only: it cannot edit local files or Azure DevOps resources. Review [the setup and safety guide](docs/azure-devops-first-line-support.md) before connecting it to a work project. Scope approved project/wiki knowledge in [.github/azure-devops-support-context.md](.github/azure-devops-support-context.md); keep reusable lessons human-reviewed in [the support lessons file](docs/azure-devops-support-lessons.md).
+The agent uses the current repository, Azure DevOps repositories, work items, pipeline/build diagnostics, and wiki pages as evidence. Azure DevOps remains strictly read-only, and the agent has no file-editing tool. After you confirm a resolution worked, it can draft a sanitized provisional lesson in chat for you to review and add manually to [the provisional lessons file](docs/azure-devops-support-lessons.provisional.md); future diagnoses must verify lessons against current evidence. Review [the setup and safety guide](docs/azure-devops-first-line-support.md) before connecting it to a work project. Scope approved project/wiki knowledge in [.github/azure-devops-support-context.md](.github/azure-devops-support-context.md).
 
 ### 1. Understand the Guidance
 - Read [AGENTS.md](AGENTS.md) to learn how agents collaborate
