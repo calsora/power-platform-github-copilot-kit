@@ -4,6 +4,15 @@ This is a lightweight repo to help people getting started using Github Copilot w
 
 A collection of agents and instructions that can help you with day-to-day tasks working with the Power Platform.
 
+| Challenge | Solution |
+|---|---|
+| Time searching documentation | Expert answers in seconds |
+| Uncertainty about best practices | Validated guidance with confidence |
+| Manual solution duplication | Reusable, proven patterns |
+| Solo debugging | Expert guidance when needed |
+| Rework after a coding session | Retrospective review to capture lessons and improve the next run |
+
+For developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
 The starter kit is for developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
 
 ---
@@ -15,7 +24,7 @@ The starter kit is for developers, architects, and teams building on Power Apps,
 - Scalability, architecture, design patterns → @Power Platform Expert
 - Portal design, SPA patterns, authentication → @Power Pages Expert
 - Azure integration, security architecture → @Azure Principal Architect
-- Deployment, CI/CD, environment promotion → @DevOps Expert
+- Deployment, CI/CD, environment promotion → @Azure DevOps Expert
 
 ---
 
@@ -45,7 +54,7 @@ The starter kit is for developers, architects, and teams building on Power Apps,
 - Integration with Azure services, multi-region strategies
 - Use for: Azure architecture, security design, enterprise integration
 
-**[@DevOps Expert](.github/agents/devops-expert.agent.md)**
+**[@Azure DevOps Expert](.github/agents/devops-expert.agent.md)**
 - CI/CD pipelines, Infrastructure as Code, ALM automation
 - Power Platform CLI, environment promotion, solution deployment
 - Use for: deployment strategy, automation, observability
@@ -59,24 +68,35 @@ copilot-lab/
 ├── .github/
 │   ├── agents/                          # AI agent definitions
 │   │   ├── power-platform-expert.agent.md
+│   │   ├── azure-devops-first-line-support.agent.md
 │   │   ├── d365-expert.agent.md
 │   │   ├── power-pages-expert.agent.md
 │   │   ├── azure-principal-architect.agent.md
 │   │   └── devops-expert.agent.md
+│   ├── azure-devops-support-context.md  # Approved ADO project/wiki scope
+│   └── copilot-instructions.md         # Workspace-wide Copilot guidance
 │   ├── instructions/                    # Best practice guides
 │   │   ├── clean-code.instructions.md
 │   │   ├── d365-webresources.instructions.md
 │   │   └── a11y-instructions.md
 │   ├── skills/                          # Reusable agent skills
-│   │   └── power-platform-architect/    # Solution architecture skill
+│   │   ├── power-platform-architect/    # Solution architecture skill
+│   │   ├── retro/                       # Coding-session and token-usage retrospective skill
+│   │   └── docs-sync/                   # README and docs alignment skill
+├── .vscode/
+│   └── mcp.json                         # Read-only Azure DevOps MCP, including Wiki
+├── docs/
+│   ├── azure-devops-first-line-support.md
+│   ├── azure-devops-support-lessons.provisional.md # Manually added, unverified lessons
+│   └── azure-devops-support-lessons.md  # Optional human-reviewed lessons
+├── templates/
+│   └── azure-devops-first-line-support/ # Synthetic Azure DevOps demo repo
 ├── AGENTS.md                            # Agent roles and responsibilities
 ├── README.md                            # This file
 └── LICENSE
 ```
 
 ---
-
-## Getting Started
 
 ### 1. Understand the Guidance
 - Read [AGENTS.md](AGENTS.md) to learn how agents collaborate
@@ -96,7 +116,7 @@ How do I structure JavaScript web resources following best practices?
 @Azure Principal Architect
 What's the best way to integrate Power Apps with Azure services?
 
-@DevOps Expert
+@Azure Azure DevOps Expert
 Design a CI/CD pipeline for Power Platform solution deployment
 
 @Power Pages Expert
@@ -117,7 +137,7 @@ Help me build a modern SPA in Power Pages with [requirements]
 | Power Pages portals | @Power Pages Expert |
 | Solution architecture | @Power Platform Expert |
 | Azure and security | @Azure Principal Architect |
-| Deployment and ALM | @DevOps Expert |
+| Deployment and ALM | @Azure DevOps Expert |
 
 ---
 
@@ -128,6 +148,7 @@ Help me build a modern SPA in Power Pages with [requirements]
 - [AGENTS.md](AGENTS.md) - Agent expertise and responsibilities
 - [.github/agents/](.github/agents/) - Full agent specifications
 - [.github/instructions/](.github/instructions/) - Best practice guides (clean code, D365, accessibility)
+- [.github/skills/](.github/skills/) - Reusable skills, including architecture, retrospectives, and docs sync
 
 ### Official Microsoft Documentation
 
@@ -144,6 +165,11 @@ Help me build a modern SPA in Power Pages with [requirements]
 - Accessibility requirements
 - Power Platform ALM and deployment
 - Security and compliance patterns
+- Session retrospectives and repository improvement checks
+- Documentation sync for keeping top-level guidance aligned with repo changes
+
+### Awesome Copilot
+Some of the components within the solution were taken from the Awesome Copilot Repo. It's a great resource that's worth saving!
 
 ### Awesome Copilot 
 
@@ -188,7 +214,7 @@ For questions about specific domains, ask the relevant agent:
 - Power Pages, portals, SPA architecture: @Power Pages Expert
 - Solution architecture and design: @Power Platform Expert
 - Azure integration and security: @Azure Principal Architect
-- Deployment, CI/CD, and ALM: @DevOps Expert
+- Deployment, CI/CD, and ALM: @Azure DevOps Expert
 - Repository structure: [AGENTS.md](AGENTS.md)
 
 ---

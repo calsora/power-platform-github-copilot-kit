@@ -9,3 +9,5 @@ When answering questions:
 - Save useful patterns and code snippets back to this repo for future reuse
 
 When the user needs architecture guidance, invoke the @Power Platform Expert agent.
+
+For Azure DevOps incident triage, use `.github/agents/azure-devops-first-line-support.agent.md`. Follow `.github/azure-devops-support-context.md` for the approved organization, projects, and wiki knowledge. Azure DevOps MCP must remain read-only; use wiki search/read tools as evidence and never change work items, repositories, pipelines, or wiki pages. After the user confirms a resolution worked, the agent may draft a sanitized provisional lesson in chat. It has no file-editing tool; a human reviews and manually adds the lesson to `docs/azure-devops-support-lessons.provisional.md` if appropriate.
