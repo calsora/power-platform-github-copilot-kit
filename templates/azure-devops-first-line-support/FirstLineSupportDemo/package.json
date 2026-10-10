@@ -1,9 +1,0 @@
-{
-  "name": "first-line-support-demo",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Synthetic Dynamics 365 form event registration bug for Azure DevOps first-line support testing",
-  "scripts": {
-    "test": "node --test"
-  }
-}
