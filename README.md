@@ -1,8 +1,8 @@
-# Power Platform Reusable Repo
+# Power Platform GitHub Copilot Starter Kit
 
-AI-driven expert guidance for Power Platform development. Access specialist agents for production-ready solutions to common challenges.
+This is a lightweight repo to help people getting started using Github Copilot with the Power Platform.
 
-## What You Get
+A collection of agents and instructions that can help you with day-to-day tasks working with the Power Platform.
 
 | Challenge | Solution |
 |---|---|
@@ -13,6 +13,7 @@ AI-driven expert guidance for Power Platform development. Access specialist agen
 | Rework after a coding session | Retrospective review to capture lessons and improve the next run |
 
 For developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
+The starter kit is for developers, architects, and teams building on Power Apps, Power Automate, Dataverse, Dynamics 365, and Power Pages.
 
 ---
 
@@ -169,6 +170,10 @@ Help me build a modern SPA in Power Pages with [requirements]
 
 ### Awesome Copilot
 Some of the components within the solution were taken from the Awesome Copilot Repo. It's a great resource that's worth saving!
+
+### Awesome Copilot 
+
+Some of the components within the solution were taken from the [Awesome Copilot Repo](https://github.com/github/awesome-copilot). It's a great resource that's worth saving!
 
 ---
 
